@@ -63,9 +63,10 @@ nav ul li .a {
   font-weight: 500;
   padding: 8px 15px;
   border-radius: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav ul li .a:hover {
@@ -168,23 +169,5 @@ input[type="checkbox"] {
     background: none;
     color: #d72323;
   }
-}
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-  color: #1b1b1b;
-}
-
-.content div {
-  font-size: 40px;
-  font-weight: 700;
 }
 /*# sourceMappingURL=Navbar.css.map */

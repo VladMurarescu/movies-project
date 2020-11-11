@@ -1,0 +1,42 @@
+@import "../../variables";
+.about-us-container {
+  width: 100%;
+  min-height: 650px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  p {
+    color: white;
+    width: 50%;
+    min-width: 300px;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 1px;
+    font-family: $normalFont;
+  }
+  .photo-container {
+    width: 40%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 20px;
+  }
+  .photo {
+    width: 50%;
+    min-width: 300px;
+
+    height: 350px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+      ),
+      url("img2.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+  }
+}
