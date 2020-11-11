@@ -1,0 +1,13 @@
+@import "../../variables";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1366px;
+  background-color: $secondColor;
+  //   max-width: 1920px;
+  min-height: 91.7vh;
+  margin: 0 auto;
+}

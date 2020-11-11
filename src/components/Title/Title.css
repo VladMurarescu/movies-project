@@ -1,0 +1,64 @@
+.section-title {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+.section-title h4 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.section-title div {
+  width: 15rem;
+  height: 5px;
+  margin: 0 auto;
+  background: white;
+}
+
+@media screen and (max-width: 527px) {
+  .section-title h4 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .section-title div {
+    width: 11rem;
+    height: 5px;
+    margin: 0 auto;
+    background: white;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .section-title h4 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .section-title div {
+    width: 10rem;
+    height: 5px;
+    margin: 0 auto;
+    background: white;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .section-title h4 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .section-title div {
+    width: 8rem;
+    height: 5px;
+    margin: 0 auto;
+    background: white;
+  }
+}
+/*# sourceMappingURL=Title.css.map */

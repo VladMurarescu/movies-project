@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1366px;
+  background-color: #1a1a2e;
+  min-height: 91.7vh;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Wrapper.css.map */

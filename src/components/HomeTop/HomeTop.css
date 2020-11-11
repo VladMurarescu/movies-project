@@ -1,0 +1,76 @@
+.home-top-container {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 18, 18, 0.6)), to(rgba(0, 0, 0, 0.6))), url("img1.jpg");
+  background-image: linear-gradient(to bottom, rgba(41, 18, 18, 0.6), rgba(0, 0, 0, 0.6)), url("img1.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-top-container .home-title {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 934px) {
+  .home-top-container .home-title {
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .home-top-container .home-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .home-top-container .home-title {
+    font-size: 26px;
+  }
+}
+
+.home-top-container .home-button {
+  height: 70px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b60623;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.home-top-container .home-button:hover {
+  background-color: #d00829;
+}
+/*# sourceMappingURL=HomeTop.css.map */

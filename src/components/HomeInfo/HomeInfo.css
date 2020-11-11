@@ -1,0 +1,22 @@
+.home-info-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=HomeInfo.css.map */
