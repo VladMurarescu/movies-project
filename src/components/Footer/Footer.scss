@@ -1,0 +1,50 @@
+@import "../../variables";
+
+.footer {
+  max-width: 1366px;
+  margin: auto;
+  background-color: $secondColor;
+  color: rgb(182, 181, 181);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 20px 50px 20px;
+  line-height: 140%;
+  letter-spacing: 1px;
+
+  h3 {
+    color: white;
+  }
+}
+.footer-about-us {
+  flex-basis: 300px;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.footer-categories {
+  flex-basis: 300px;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.copyrights {
+  display: flex;
+  flex-basis: 320px;
+  margin-top: 20px;
+  //   background-color: cadetblue;
+  height: 130px;
+  align-items: center;
+  p {
+    font-size: 15px;
+  }
+}
+
+.h-line {
+  height: 6px;
+  border: none;
+  background-color: $mainColor;
+  max-width: 1366px;
+  margin: auto;
+}

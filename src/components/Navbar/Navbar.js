@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>Muri's Movies</h1>
+        <Link to="/">
+          <h1>Muri's Movies</h1>
+        </Link>
       </div>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">

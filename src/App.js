@@ -6,6 +6,7 @@ import MovieDetails from "./Pages/MovieDetails/MovieDetails";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Navbar from "./components/Navbar/Navbar";
 import ErrorComponent from "./components/ErrorComponent/ErrorComponent";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
           <ErrorComponent />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
