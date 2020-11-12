@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACf,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,KAAK;EACjB,eAAe,EAAE,YAAY;EAC7B,cAAc,EAAE,KAAK;EACrB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;EACnB,WAAW,ECdA,YAAY,EAAE,UAAU;EDenC,KAAK,EAAE,KAAK;EACZ,gBAAgB,ECnBG,OAAO;CDuB3B;;AAdD,AAWE,UAXQ,AAWP,MAAM,CAAC;EACN,gBAAgB,ECtBJ,OAAO;CDuBpB",
     "sources": [
-        "ErrorComponent.scss"
+        "ErrorComponent.scss",
+        "../../_variables.scss"
     ],
     "names": [],
     "file": "ErrorComponent.css"

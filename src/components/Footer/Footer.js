@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "../Wrapper/Wrapper";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -19,7 +18,7 @@ const Footer = () => {
             <li>Action</li>
             <li>SF</li>
             <li>Drama</li>
-            <li>Musical</li>
+            <li>Sport</li>
             <li>Horror</li>
           </ul>
         </div>
