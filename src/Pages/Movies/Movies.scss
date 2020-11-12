@@ -1,0 +1,38 @@
+@import "../../variables";
+
+.movies-top {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("cinema1.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px 40px;
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    font-family: $titleFont;
+    letter-spacing: 1px;
+  }
+  @media screen and (max-width: 566px) {
+    h1 {
+      font-size: 33px;
+    }
+  }
+  @media screen and (max-width: 384px) {
+    h1 {
+      font-size: 25px;
+    }
+  }
+}

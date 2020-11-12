@@ -1,1 +1,60 @@
-/* No CSS *//*# sourceMappingURL=MovieDetails.css.map */
+.movie-details-container {
+  width: 100%;
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.movie-details-container .movie-info {
+  min-width: 300px;
+  width: 60%;
+  min-height: 700px;
+  padding: 50px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 160%;
+  color: #c9c7c7;
+}
+
+.movie-details-container .movie-info h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.movie-details-container .movie-info h2,
+.movie-details-container .movie-info h3,
+.movie-details-container .movie-info h4 {
+  margin-bottom: 20px;
+}
+
+.movie-details-container .movie-pic {
+  min-width: 300px;
+  width: 40%;
+  height: 550px;
+}
+
+.movie-details-container .movie-pic .movie-picture {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 751px) {
+  .movie-details-container .movie-pic {
+    min-width: 300px;
+    width: 100%;
+    height: 300px;
+  }
+  .movie-details-container .movie-info {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=MovieDetails.css.map */

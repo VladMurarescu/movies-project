@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=Movies.css.map */
+.movies-top {
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url("cinema1.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("cinema1.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 20px 40px;
+}
+
+.movies-top h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 566px) {
+  .movies-top h1 {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .movies-top h1 {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=Movies.css.map */
