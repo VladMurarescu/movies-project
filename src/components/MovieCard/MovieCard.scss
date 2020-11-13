@@ -2,7 +2,6 @@
 .movie-card-container {
   width: 240px;
   height: 400px;
-  //   background-color: red;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@
   .card-photo {
     width: 100%;
     height: 60%;
-    // background-color: blue;
     .card-img {
       width: 100%;
       height: 100%;
@@ -45,7 +43,6 @@
       width: 100px;
       height: 30px;
       background-color: $contrastColorHover;
-      // border: 2px solid $contrastColor;
       font-size: 15px;
       font-family: $normalFont;
       letter-spacing: 1px;

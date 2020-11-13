@@ -36,6 +36,10 @@
   margin-bottom: 20px;
 }
 
+.movie-details-container .movie-info h5 {
+  font-size: 15px;
+}
+
 .movie-details-container .movie-pic {
   min-width: 300px;
   width: 40%;
